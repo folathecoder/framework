@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<html lang = en-US>
+<html lang = "en-US">
 	<head>
 		<title>Basics of HTML</title>
+		<style>
+			body {background-color:black;}
+			h1   { border: 2px solid powderblue;
+	               padding: 30px;	
+				   margin-left: 130px;
+				   margin-right: 130px;
+			     } 
+                   <!--Creation of a button-->
+			a:link {
+				   color:chartreuse;
+				   background-color: transparent;
+				   text-decoration: none;
+			     }
+			a:visited {
+				   color:tomato;
+				   background-color: transparent;
+				   text-decoration: none;
+			     }	 
+		    a:hover {
+				   color:rgb(0, 0, 0);
+				   background-color: white;
+				   text-decoration: none;
+				   text-transform: capitalize;
+			     }
+			a:active {
+				   color:rgb(255, 0, 0);
+				   background-color: white;
+				   text-decoration: none;
+			     }
+		</style>
 	</head>
-    <body style= "background-color:#3221ce;">
-		<h1 style="text-align:center; color:cornsilk; font-family:'Courier New', Courier, monospace; font-size:50px">
+    <body>
+		<h1 style="text-align:center; color:cornsilk; font-family:'Courier New', Courier, monospace; font-size:60px">
 			How To Get Started With <abbr title="HyperText Markup Language">HTML</abbr></h1>
-			<hr style="color: cornsilk;">
+			<br>
 		<h2 style="text-align:center; color:cornsilk; font-family:'Courier New', Courier, monospace; font-size:30px">
 			Are You Ready To Start Building Web Applications?</h2>
-		<p style="text-align:center; color:cornsilk; font-family:'Courier New', Courier, monospace; font-size:20px">
+		<p><a href="https://kudihub.com" title="CLICK ME">
+			<img src="https://images.ctfassets.net/ztqkislsfsqt/6oJAZVEJSPhb3RdWyh5QCJ/01d5c986f1ff72462c9ee2df3f414869/SaleImageFlash-530.svg" alt="Flash Sale!"></a></p>
+		<p style="text-align:center; border: 2px bold white; color:cornsilk; font-family:'Courier New', Courier, monospace; font-size:20px">
 			This HTML coding course will give you all the information<br> you need to start, scale and launch industry-standard
-			 <br>web application projects as a complete beginner.</p> 
-		<!--Call to action button-->
-		<p style="text-align: center;"><a href= "https://kudihub.com"><button><b>REGISTER!</b></button></a></p>
+			 <br>web application projects as a <a href="https://kudihub.com" title="GET STARTED">complete beginner.</a></p> 
+		<!--Call to action button--><br>
+		<p style="text-align: center;"><a href= "https://kudihub.com" target="_blank" title="Tap To Register"><button style="padding:20px; font-size:20px"><b>REGISTER!</b></button></a></p>
 	</body>
 </html>
