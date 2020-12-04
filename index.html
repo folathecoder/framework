@@ -3,7 +3,8 @@
 	<head>
 		<title>Basics of HTML</title>
 		<style>
-			body {background-color:black;}
+			body {background-color:black;
+			     }
 			h1   { border: 2px solid powderblue;
 	               padding: 30px;	
 				   margin-left: 130px;
@@ -30,7 +31,22 @@
 				   color:rgb(255, 0, 0);
 				   background-color: white;
 				   text-decoration: none;
-			     }
+			}
+			table,th,td {
+				   border:2px solid rgb(0, 0, 0);
+				   padding: 10px;
+				   background-color: yellow;
+				   font-family:'Courier New', Courier, monospace;
+				   text-align: left;
+				   color: rgb(53, 8, 53);
+				   width:100%;
+				   border-collapse:collapse;
+				   margin-left: 100px;
+				   margin-right: 200px;
+			}
+			tr:nth-child(even) {
+                background-color: #dddddd;
+            }
 		</style>
 	</head>
     <body>
@@ -39,12 +55,24 @@
 			<br>
 		<h2 style="text-align:center; color:cornsilk; font-family:'Courier New', Courier, monospace; font-size:30px">
 			Are You Ready To Start Building Web Applications?</h2>
-		<p><a href="https://kudihub.com" title="CLICK ME">
-			<img src="https://images.ctfassets.net/ztqkislsfsqt/6oJAZVEJSPhb3RdWyh5QCJ/01d5c986f1ff72462c9ee2df3f414869/SaleImageFlash-530.svg" alt="Flash Sale!"></a></p>
 		<p style="text-align:center; border: 2px bold white; color:cornsilk; font-family:'Courier New', Courier, monospace; font-size:20px">
 			This HTML coding course will give you all the information<br> you need to start, scale and launch industry-standard
-			 <br>web application projects as a <a href="https://kudihub.com" title="GET STARTED">complete beginner.</a></p> 
+			 <br>we b application projects as a <a href="https://kudihub.com" title="GET STARTED">complete beginner.</a></p> 
 		<!--Call to action button--><br>
 		<p style="text-align: center;"><a href= "https://kudihub.com" target="_blank" title="Tap To Register"><button style="padding:20px; font-size:20px"><b>REGISTER!</b></button></a></p>
+	    <table>
+			<tr>
+				<th>course</th>
+				<th>Software</th>
+				<th>Computer</th>
+				<th>Balance</th>
+			</tr>
+			<tr>
+				<td>Boss</td>
+				<td>Lord</td>
+				<td>Bim</td>
+				<td>Macaroni</td>
+			</tr>
+		</table>
 	</body>
 </html>
